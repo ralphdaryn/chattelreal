@@ -1,0 +1,60 @@
+%heading {
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 2.5rem;
+  font-style: italic;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.heading-3 {
+  @extend %heading;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.heading-3-black {
+  @extend %heading;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+}
+
+.heading-4 {
+  @extend %heading;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: $color-secondary;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mb-sm {
+  margin-bottom: 1rem;
+}
+
+.mb-md {
+  margin-bottom: 2.5rem;
+}
+
+.mb-lg {
+  margin-bottom: 4rem;
+}

@@ -1,4 +1,4 @@
-#Chattel Real
+Chattel Real
 
 https://chattelreal.netlify.app/
 
